@@ -280,7 +280,7 @@ Some URLs is Shortner
 • /short <code>(link)</code> - I will send the shorted links.
 
 <b>Example:</b>
-<code>/short https://t.me/josprojects</code>
+<code>/short https://t.me/meowmeowor</code>
 
 <b>NOTE:</b>
 • Movie Time should have admin privillage.
