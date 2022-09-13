@@ -382,8 +382,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('🆘 Owner', url='https://t.me/hellodarklord'),
-                InlineKeyboardButton('Contact 🆘', url='https://t.me/hellodarklord_Bot')
+                InlineKeyboardButton('🆘 Owner', url='https://t.me/MeowLinksBot'),
+                InlineKeyboardButton('Contact 🆘', url='https://t.me/contact_meow_bot')
             ]]
             
         try:
@@ -432,8 +432,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('🆘 Owner', url='https://t.me/hellodarklord'),
-                InlineKeyboardButton('Contact 🆘', url='https://t.me/hellodarklord_Bot')
+                InlineKeyboardButton('🆘 Owner', url='https://t.me/MeowLinksBot'),
+                InlineKeyboardButton('Contact 🆘', url='https://t.me/contact_meow_bot')
             ]]
             
         await query.answer()
@@ -491,7 +491,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('Zombies', callback_data='zombies'),
             InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton('Help', url='https://t.me/hellodarklord')
+            InlineKeyboardButton('Help', url='https://t.me/MeowLinksBot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
